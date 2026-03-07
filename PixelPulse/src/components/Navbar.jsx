@@ -66,11 +66,11 @@ export default function Navbar() {
 
   return (
     <nav aria-label="Main navigation" className="fixed top-0 z-50 w-full px-2 pt-3 sm:px-6">
-      <div className="glass-navbar mx-auto flex h-20 w-full max-w-7xl items-center justify-between rounded-2xl pl-2 pr-3 shadow-2xl sm:h-24 sm:px-6">
+      <div className="glass-navbar mx-auto flex h-24 w-full max-w-7xl items-center justify-between rounded-2xl pl-2 pr-3 shadow-2xl sm:h-28 sm:px-6">
         <NavLink to="/" className="-ml-1 flex items-center sm:ml-0">
           <img
             alt="PixelPulse"
-            className="h-12 w-12 object-contain sm:h-14 sm:w-14 lg:h-16 lg:w-16"
+            className="h-16 w-16 object-contain sm:h-20 sm:w-20 lg:h-24 lg:w-24"
             src="/img/2-removebg-preview.png"
           />
         </NavLink>
@@ -105,7 +105,7 @@ export default function Navbar() {
           <div
             ref={menuRef}
             id="mobile-dropdown"
-            className={`absolute right-0 top-16 z-50 min-w-44 rounded-xl border border-white/50 bg-white/90 p-2 shadow-xl backdrop-blur-xl transition-all duration-200 sm:top-20 ${
+            className={`absolute right-0 top-20 z-50 min-w-44 rounded-xl border border-white/50 bg-white/90 p-2 shadow-xl backdrop-blur-xl transition-all duration-200 sm:top-24 ${
               isMenuOpen
                 ? "pointer-events-auto translate-y-0 opacity-100"
                 : "pointer-events-none -translate-y-1 opacity-0"
