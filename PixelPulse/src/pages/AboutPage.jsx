@@ -50,7 +50,7 @@ export default function AboutPage() {
       <section className="pb-16 pt-36 sm:pt-40">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="section-shell p-7 text-center sm:p-10">
-            <span className="section-kicker">About PixelPulse</span>
+            <span className="section-kicker">About Vuler</span>
             <h1 className="font-display mt-5 text-5xl font-semibold text-slate-950 sm:text-6xl">
               A focused team building websites that look sharp and perform even
               sharper.
@@ -89,7 +89,7 @@ export default function AboutPage() {
               Become your long-term technical partner
             </h2>
             <p className="text-base leading-relaxed text-slate-600">
-              We want PixelPulse to be the team you trust when quality, reliability,
+              We want Vuler to be the team you trust when quality, reliability,
               and speed all matter at once. We optimize for strong partnerships, not
               one-off execution.
             </p>
@@ -161,7 +161,7 @@ export default function AboutPage() {
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
               Whether you are refreshing an outdated presence or launching from zero,
-              PixelPulse can help you ship with confidence.
+              Vuler can help you ship with confidence.
             </p>
             <Link
               to="/contact"

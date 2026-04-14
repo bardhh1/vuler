@@ -10,11 +10,6 @@ export default function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-4">
           <div className="space-y-4">
-            <img
-              alt="Pixel Pulse Logo"
-              className="h-24 w-24 object-contain"
-              src="/img/3-removebg-preview.png"
-            />
             <p className="max-w-xs text-sm leading-relaxed text-slate-300">
               We design and ship modern digital products that help ambitious teams
               move faster.
@@ -84,7 +79,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-slate-800 pt-8 text-center">
           <p className="text-sm text-slate-400">
-            &copy; {currentYear} Pixel Pulse. Crafted for impact.
+            &copy; {currentYear} Vuler. Crafted for impact.
           </p>
         </div>
       </div>

@@ -30,10 +30,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr]">
             <div className="space-y-8">
-              <span className="section-kicker">
-                <i className="fas fa-wave-square text-sky-700" />
-                PixelPulse Studio
-              </span>
+              
               <h1 className="font-display max-w-3xl text-5xl font-semibold leading-tight text-slate-950 sm:text-6xl lg:text-7xl">
                 Engineering digital <span className="animated-gradient-text">experiences</span>{" "}
                 that make companies look elite.
@@ -189,7 +186,7 @@ export default function HomePage() {
                 Next Step
               </span>
               <h2 className="font-display mt-6 text-4xl font-semibold text-white">
-                Ready to refresh PixelPulse quality for your next build?
+                Ready to refresh Vuler quality for your next build?
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-200">
                 Let&apos;s shape a website that looks premium, performs fast, and helps
