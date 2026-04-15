@@ -24,7 +24,11 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+
+          /*
           <Route path="/projects" element={<ProjectsPage />} />
+          */
+
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
